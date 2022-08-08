@@ -74,7 +74,7 @@
 // console.log(calcAreaOfTriangle(20,20))
 
 
-// Question 5. Extend a String
+// Question 5. Extend a String(8:05)
 
 // Write a function accepts a string and adds 'Frontend' onto the end of it.
 
@@ -87,6 +87,27 @@
 // Accept a string
 // Adding strings is similar to adding numbers
 // Don't forget to return your result
+
+// function appendFrontend(string) {
+    // return string + 'Frontend'
+// }
+// console.log(appendFrontend('Apple'));
+
+// Question 6. Greater than 100?
+
+
+
+// Given two numbers, return true if the sum of both numbers is greater than 100.
+// Otherwise,return false.
+
+// sumGreaterThan100(20,10) -> false
+
+// sumGreaterThan100(50,60) -> true
+
+// sumGreaterThan100(100,-50) -> false
+
+
+
 
 
 
