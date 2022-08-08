@@ -13,7 +13,7 @@ function addition(num1,num2) {
     return num1 + num2
 }
 
-console.log(addition(3,5));
+console.log(addition(3,2));
 
 // with a function you have to return something if i want to console log it
 
@@ -37,6 +37,16 @@ console.log(hoursIntoSeconds(2)) //I got this right
 // Question 3. Calculate the perimeter of a rectangle
 
 // Create a function that takes length and width of a rectangle and return it's perimeter
+
+// calcPerimeter(6,7) -> 26
+
+// calcPerimeter(20,10) -> 60
+
+// calcPerimeter(2,9) -> 22
+
+
+
+
 
 
 
