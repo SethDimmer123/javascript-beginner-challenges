@@ -11,6 +11,12 @@ console.log(addition(3,5));
 
 // with a function you have to return something if i want to console log it
 
+// Question 2. Convert Hours into Seconds
+
+// Create a function that converts hours into seconds
+
+
+
 
 
 
