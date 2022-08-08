@@ -48,18 +48,34 @@
 // The perimeter is 2 times the length plus 2 times width.
 
 
-function calcPerimeter(length, width) {
-    return length * 2 + width * 2;
-}
+// function calcPerimeter(length, width) {
+    // return length * 2 + width * 2;
+// }
 
-console.log(calcPerimeter(6,7));
+// console.log(calcPerimeter(6,7));
 
 // REMEMBER PEMDAS
 
 
-// question 4. Calculate the Area of a Triangle
+// question 4. Calculate the Area of a Triangle (6:34)
 
 // Write a function that takes the base and height of a triangle and return its area.
+
+// calcTriangleArea(3,2) -> 3
+// calcTriangleArea(10,10) -> 50
+// calcTriangleArea(20,20) -> 200
+
+// formula to calculate area is  0.5 * base * height
+
+function calcAreaOfTriangle(base, height) {
+    return 0.5 * 20 * 20
+    // return (1 / 2) * base * height
+}
+console.log(calcAreaOfTriangle(20,20))
+
+
+
+
 
 
 
