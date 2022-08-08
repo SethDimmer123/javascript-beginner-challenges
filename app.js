@@ -1,3 +1,9 @@
+
+
+
+
+
+
 // Question 1. Return the Sum of Two Numbers
 
 // Create a function that takes two arguements as functions and return their sum.
@@ -20,6 +26,26 @@ console.log(addition(3,5));
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Question 2. Convert Hours into Seconds(Starts at 3:24)
 
 // Create a function that converts hours into seconds
@@ -33,6 +59,22 @@ function hoursIntoSeconds(hour) {
 }
 
 console.log(hoursIntoSeconds(2)) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Question 3. Calculate the perimeter of a rectangle
@@ -57,6 +99,19 @@ console.log(calcPerimeter(6,7));
 // REMEMBER PEMDAS
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Question 4. Calculate the Area of a Triangle (6:34)
 
 // Write a function that takes the base and height of a triangle and return its area.
@@ -72,6 +127,26 @@ function calcAreaOfTriangle(base, height) {
     return (1 / 2) * base * height
 }
 console.log(calcAreaOfTriangle(20,20))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Question 5. Extend a String(8:05)
@@ -92,6 +167,17 @@ function appendFrontend(string) {
     return string + 'Frontend'
 }
 console.log(appendFrontend('Apple'));
+
+
+
+
+
+
+
+
+
+
+
 
 
 
