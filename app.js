@@ -9,11 +9,11 @@
 // addition(7,3) -> 10
 
 
-// function addition(num1,num2) {
-    // return num1 + num2
-// }
+function addition(num1,num2) {
+    return num1 + num2
+}
 
-// console.log(addition(3,2));
+console.log(addition(3,2));
 
 // with a function you have to return something if i want to console log it
 
@@ -25,14 +25,13 @@
 
 // What do we need to do to actually turn this into seconds?
 
-// function hoursIntoSeconds(hour) { 
-    // let minutes = hour * 60; 
-    // let seconds = minutes * 60;
-    // return seconds 
-// }
+function hoursIntoSeconds(hour) { 
+    let minutes = hour * 60; 
+    let seconds = minutes * 60;
+    return seconds 
+}
 
-// console.log(hoursIntoSeconds(2)) 
-//I got this right
+console.log(hoursIntoSeconds(2)) 
 
 
 // Question 3. Calculate the perimeter of a rectangle
@@ -48,11 +47,11 @@
 // The perimeter is 2 times the length plus 2 times width.
 
 
-// function calcPerimeter(length, width) {
-    // return length * 2 + width * 2;
-// }
+function calcPerimeter(length, width) {
+    return length * 2 + width * 2;
+}
 
-// console.log(calcPerimeter(6,7));
+console.log(calcPerimeter(6,7));
 
 // REMEMBER PEMDAS
 
@@ -67,11 +66,11 @@
 
 // formula to calculate area is  0.5 * base * height
 
-// function calcAreaOfTriangle(base, height) {
-    // return 0.5 * 20 * 20
-    // return (1 / 2) * base * height
-// }
-// console.log(calcAreaOfTriangle(20,20))
+function calcAreaOfTriangle(base, height) {
+    return 0.5 * 20 * 20
+    return (1 / 2) * base * height
+}
+console.log(calcAreaOfTriangle(20,20))
 
 
 // Question 5. Extend a String(8:05)
@@ -88,10 +87,10 @@
 // Adding strings is similar to adding numbers
 // Don't forget to return your result
 
-// function appendFrontend(string) {
-    // return string + 'Frontend'
-// }
-// console.log(appendFrontend('Apple'));
+function appendFrontend(string) {
+    return string + 'Frontend'
+}
+console.log(appendFrontend('Apple'));
 
 
 
@@ -107,8 +106,8 @@
 // sumGreaterThan100(100,-50) -> false
 
 function sumGreaterThan100(num1,num2) {
-    if(num1 +num2 > 100){
-        return true
+    if(num1 + num2 > 100){
+        return true;
     }
     else {
         return false
@@ -117,6 +116,8 @@ function sumGreaterThan100(num1,num2) {
 }
 
 console.log(sumGreaterThan100(50,51))
+
+
 
 
 
