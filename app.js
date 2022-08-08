@@ -2,6 +2,12 @@
 
 // Create a function that takes two arguements as functions and return their sum.
 
+// addition(3,2) -> 5
+
+// addition(-3,-6) -> -9
+
+// addition(7,3) -> 10
+
 
 function addition(num1,num2) {
     return num1 + num2
@@ -26,6 +32,13 @@ function hoursIntoSeconds(hour) { //i got this right
 }
 
 console.log(hoursIntoSeconds(2)) //I got this right
+
+
+// Question 3. Calculate the perimeter of a rectangle
+
+// Create a function that takes length and width of a rectangle and return it's perimeter
+
+
 
 
 
