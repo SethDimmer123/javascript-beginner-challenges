@@ -19,13 +19,13 @@ console.log(addition(3,5));
 
 // What do we need to do to actually turn this into seconds?
 
-function hoursIntoSeconds(hour) {
-    let minutes = hour * 60;
+function hoursIntoSeconds(hour) { //i got this right
+    let minutes = hour * 60; 
     let seconds = minutes * 60;
-    return seconds
+    return seconds // i got this right
 }
 
-console.log(hoursIntoSeconds(2))
+console.log(hoursIntoSeconds(2)) //I got this right
 
 
 
