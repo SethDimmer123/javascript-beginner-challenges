@@ -9,11 +9,11 @@
 // addition(7,3) -> 10
 
 
-function addition(num1,num2) {
-    return num1 + num2
-}
+// function addition(num1,num2) {
+    // return num1 + num2
+// }
 
-console.log(addition(3,2));
+// console.log(addition(3,2));
 
 // with a function you have to return something if i want to console log it
 
@@ -25,10 +25,10 @@ console.log(addition(3,2));
 
 // What do we need to do to actually turn this into seconds?
 
-function hoursIntoSeconds(hour) { //i got this right
+function hoursIntoSeconds(hour) { 
     let minutes = hour * 60; 
     let seconds = minutes * 60;
-    return seconds // i got this right
+    return seconds 
 }
 
 console.log(hoursIntoSeconds(2)) //I got this right
@@ -51,6 +51,10 @@ function calcPerimeter(length, width) {
 }
 
 console.log(calcPerimeter(6,7));
+
+// REMEMBER PEMDAS
+
+
 
 
 
