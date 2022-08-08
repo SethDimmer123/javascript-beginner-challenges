@@ -25,13 +25,14 @@
 
 // What do we need to do to actually turn this into seconds?
 
-function hoursIntoSeconds(hour) { 
-    let minutes = hour * 60; 
-    let seconds = minutes * 60;
-    return seconds 
-}
+// function hoursIntoSeconds(hour) { 
+    // let minutes = hour * 60; 
+    // let seconds = minutes * 60;
+    // return seconds 
+// }
 
-console.log(hoursIntoSeconds(2)) //I got this right
+// console.log(hoursIntoSeconds(2)) 
+//I got this right
 
 
 // Question 3. Calculate the perimeter of a rectangle
@@ -46,6 +47,7 @@ console.log(hoursIntoSeconds(2)) //I got this right
 
 // The perimeter is 2 times the length plus 2 times width.
 
+
 function calcPerimeter(length, width) {
     return length * 2 + width * 2;
 }
@@ -53,6 +55,9 @@ function calcPerimeter(length, width) {
 console.log(calcPerimeter(6,7));
 
 // REMEMBER PEMDAS
+
+
+
 
 
 
