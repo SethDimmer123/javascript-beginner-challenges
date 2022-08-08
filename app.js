@@ -22,7 +22,8 @@ function addition(num1,num2){
 
 console.log(addition(3,5));
 
-// with a function you have to return something if i want to console log it
+// with a function you have to return something if 
+// i want to console log it
 
 
 
