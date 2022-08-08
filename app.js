@@ -76,6 +76,19 @@
 
 // Question 5. Extend a String
 
+// Write a function accepts a string and adds 'Frontend' onto the end of it.
+
+// appendFrontend('Apple') -> "AppleFrontend"
+
+// appendFrontend('Banana') -> "BananaFrontend"
+
+// appendFrontend('Orange') -> "OrangeFrontend"
+
+// Accept a string
+// Adding strings is similar to adding numbers
+// Don't forget to return your result
+
+
 
 
 
