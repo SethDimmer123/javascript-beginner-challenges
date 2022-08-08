@@ -9,11 +9,12 @@
 // addition(7,3) -> 10
 
 
-function addition(num1,num2) {
+function addition(num1,num2){
+    // num1 + num2
     return num1 + num2
 }
 
-console.log(addition(3,2));
+console.log(addition(3,5));
 
 // with a function you have to return something if i want to console log it
 
@@ -109,6 +110,7 @@ function sumGreaterThan100(num1,num2) {
     if(num1 + num2 > 100){
         return true;
     }
+    // otherwise return false
     else {
         return false
     }
@@ -116,6 +118,8 @@ function sumGreaterThan100(num1,num2) {
 }
 
 console.log(sumGreaterThan100(50,51))
+
+
 
 
 
