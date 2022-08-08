@@ -57,7 +57,7 @@
 // REMEMBER PEMDAS
 
 
-// question 4. Calculate the Area of a Triangle (6:34)
+// Question 4. Calculate the Area of a Triangle (6:34)
 
 // Write a function that takes the base and height of a triangle and return its area.
 
@@ -67,11 +67,16 @@
 
 // formula to calculate area is  0.5 * base * height
 
-function calcAreaOfTriangle(base, height) {
-    return 0.5 * 20 * 20
+// function calcAreaOfTriangle(base, height) {
+    // return 0.5 * 20 * 20
     // return (1 / 2) * base * height
-}
-console.log(calcAreaOfTriangle(20,20))
+// }
+// console.log(calcAreaOfTriangle(20,20))
+
+
+// Question 5. Extend a String
+
+
 
 
 
