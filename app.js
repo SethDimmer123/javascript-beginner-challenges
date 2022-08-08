@@ -46,9 +46,13 @@ console.log(hoursIntoSeconds(2)) //I got this right
 
 // The perimeter is 2 times the length plus 2 times width.
 
-function calcPerimeter(length) {
-    return num1 
+function calcPerimeter(length, width) {
+    return length * 2 + width * 2;
 }
+
+console.log(calcPerimeter(6,7));
+
+
 
 
 
