@@ -15,11 +15,13 @@
 // addition(7,3) -> 10
 
 
-function addition(num1,num2){
-return num1 + num2
-}
+// Answer is on line 20 and ends on line 24
 
-console.log(addition(3,2));
+// function addition(num1,num2){
+// return num1 + num2
+// }
+
+// console.log(addition(3,2));
 
 
 // we need to return something if i want to console log it
@@ -123,8 +125,10 @@ console.log(calcPerimeter(6,7))
 
 
 function calcTriangleArea(base,height){
-    return 0.5 * base * height
+    return  0.5 * base * height;
 }
+
+console.log(calcTriangleArea(20,20))
 
 
 
