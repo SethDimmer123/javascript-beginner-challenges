@@ -322,11 +322,13 @@
 // console.log(isNotZero(5));
 
 
-function isNotZero(number) {
-    return number !== 0
-}
+/*EASY WAY TO DO WHAT IS ABOVE DOWN BELOW */
 
-console.log(isNotZero(0))
+// function isNotZero(number) {
+    // return number !== 0
+// }
+
+// console.log(isNotZero(0))
 
 // If we return a boolean(true or false) i can return directly
 
@@ -350,7 +352,15 @@ console.log(isNotZero(0))
 
 // calcRemainder(9,8)--> 1
 
+function calcRemainder(num1,num2) {
+return num1 % num2;
+}
 
+console.log(calcRemainder(4,2))
+
+
+// In order to calculate the remainder 
+// use percentage symbol because it calculates the remainder for me
 
 
 
