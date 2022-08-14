@@ -184,6 +184,25 @@
 
 
 
+// Question 8. Opposite boolean
+
+// given a boolean (true or false), return the opposite boolean.
+
+// oppositeBoolean(true) --> false
+// oppositeBoolean(false) -->true
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
