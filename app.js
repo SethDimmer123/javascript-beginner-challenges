@@ -200,9 +200,15 @@
 
 
 
+
+
 // Question 9. Is not a number 0
 
-// Given
+// Given ANY element, return true if it is NOT the number 0.
+
+// isNotZero(5) --> true
+// isNotZero(0) --> false
+// isNotZero(null) --> true
 
 
 
