@@ -159,6 +159,31 @@
 
 
 
+// Question 7. Less than or Equal to Zero?
+
+// Write a function that accepts a number and returns true 
+// if it is less than or equal to zero, otherwise returns false.
+
+// lessThanOrEqualToZero(3)--> false
+
+// lessThanOrEqualToZero(0)--> true
+
+// lessThanOrEqualToZero(-2)--> true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
