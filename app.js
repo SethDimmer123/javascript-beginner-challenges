@@ -170,7 +170,7 @@
 
 // lessThanOrEqualToZero(-2)--> true
 
-
+// tip: use the less than or equal to operator
 
 
 
