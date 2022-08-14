@@ -252,6 +252,47 @@ calcRemainder(9,8)--> 1
 
 
 
+// Question 12. if a number is even,return 1 otherwise return -1
+
+// Create a function that takes a number arguement and 
+// returns 1 if the number is even. if the number is odd return -1.
+
+// booleanInteger(1) --> -1
+
+// booleanInteger(2) --> 1
+
+// booleanInteger(5) --> -1
+
+
+
+
+
+
+
+
+
+
+
+
+// Question 13. Check if a user is logged in AND subscribed
+
+// Create a function that takes in two strings. If the strings equal to
+// 'LOGGED_IN' AND the second string is equal to 'SUBSCRIBED' return true,
+// otherwise return false.
+
+
+isLoggedInAndSubscribed('LOGGED_IN', 'SUBSCRIBED') --> true
+
+isLoggedInAndSubscribed('LOGGED_IN', 'UNSUBSCRIBED') --> false
+
+isLoggedInAndSubscribed('LOGGED_OUT', 'SUBSCRIBED') --> false
+
+
+
+
+
+
+
 
 
 
