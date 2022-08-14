@@ -216,6 +216,31 @@
 
 
 
+// Question 10. Calculate the remainder
+
+// Given two numbers, return their remainder when divided by each other.
+
+calcRemainder(4,2)--> 0
+
+calcRemainder(7,8)--> 7
+
+calcRemainder(9,8)--> 1
+
+
+
+
+
+// Question 11. is the number odd?
+
+// Given two numbers,return true if the number is odd
+
+
+// isOdd(1) --> true
+
+// isOdd(2) --> false
+
+// isOdd(3) --> true
+
 
 
 
