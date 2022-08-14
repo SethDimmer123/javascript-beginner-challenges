@@ -281,11 +281,17 @@ calcRemainder(9,8)--> 1
 // otherwise return false.
 
 
-isLoggedInAndSubscribed('LOGGED_IN', 'SUBSCRIBED') --> true
+// isLoggedInAndSubscribed('LOGGED_IN', 'SUBSCRIBED') --> true
 
-isLoggedInAndSubscribed('LOGGED_IN', 'UNSUBSCRIBED') --> false
+// isLoggedInAndSubscribed('LOGGED_IN', 'UNSUBSCRIBED') --> false
 
-isLoggedInAndSubscribed('LOGGED_OUT', 'SUBSCRIBED') --> false
+// isLoggedInAndSubscribed('LOGGED_OUT', 'SUBSCRIBED') --> false
+
+
+
+
+
+
 
 
 
