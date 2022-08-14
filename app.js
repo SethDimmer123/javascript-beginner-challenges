@@ -129,11 +129,11 @@
 
 /* Answer is down below */
 
-function calcTriangleArea(base,height){
-    return  0.5 * base * height;
-}
+// function calcTriangleArea(base,height){
+    // return  0.5 * base * height;
+// }
 
-console.log(calcTriangleArea(20,20))
+// console.log(calcTriangleArea(20,20))
 
 
 
@@ -170,11 +170,13 @@ console.log(calcTriangleArea(20,20))
 // Don't forget to return your result
 
 
-function appenedFrontend(){
-    return 'AppleFrontend'
-}
+/* ANSWER DOWN BELOW */
 
-console.log(appenedFrontend('Apple',))
+// function appenedFrontend(){
+    // return 'AppleFrontend'
+// }
+
+// console.log(appenedFrontend('Apple'))
 
 
 
@@ -200,6 +202,8 @@ console.log(appenedFrontend('Apple',))
 
 // sumGreaterThan100(100,-50) -> false
 
+
+/* ANSWER DOWN BELOW */
 
 // function sumGreaterThan100(num1,num2){
     // return num1 + num2 > 100
@@ -232,11 +236,14 @@ console.log(appenedFrontend('Apple',))
 // tip: use the less than or equal to operator
 
 
-function lessThanOrEqualToZero(number){
-    return 3 < 0
-}
 
-console.log(lessThanOrEqualToZero(3))
+/*ANSWER DOWN BELOW*/
+
+// function lessThanOrEqualToZero(number){
+    // return number <= 0
+// }
+
+// console.log(lessThanOrEqualToZero(3))
 
 
 
@@ -259,7 +266,33 @@ console.log(lessThanOrEqualToZero(3))
 // oppositeBoolean(false) -->true
 
 
+// ANSWER DOWN BELOW
 
+// function oppositeBoolean(boolean) {
+    // if (boolean === false) {
+        // return true;
+    // }
+    // else{
+        // return false
+    // }
+// }
+
+// console.log(oppositeBoolean(true))
+
+// if the boolean we are getting is equal to false then return true otherwise (else statement) return false
+
+
+// The easiest way to do THE PROBLEM ABOVE 
+
+// IS DOWN BELOW
+
+function oppositeBoolean(boolean) {
+        return !boolean;
+}
+
+console.log(oppositeBoolean(false))
+
+/* An EXCLAMATION  MARK INFRONT OF A BOOLEAN VALUE IS GOING TO GIVE YOU THE OPPOSITE OF WHAT THE BOOLEAN VALUE IS*/
 
 
 
