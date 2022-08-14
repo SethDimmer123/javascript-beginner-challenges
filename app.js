@@ -283,16 +283,15 @@
 
 
 // The easiest way to do THE PROBLEM ABOVE 
-
 // IS DOWN BELOW
 
-function oppositeBoolean(boolean) {
-        return !boolean;
-}
+// function oppositeBoolean(boolean) {
+        // return !boolean;
+// }
 
-console.log(oppositeBoolean(false))
+// console.log(oppositeBoolean(false))
 
-/* An EXCLAMATION  MARK INFRONT OF A BOOLEAN VALUE IS GOING TO GIVE YOU THE OPPOSITE OF WHAT THE BOOLEAN VALUE IS*/
+/* An EXCLAMATION MARK INFRONT OF A BOOLEAN VALUE IS GOING TO GIVE YOU THE OPPOSITE OF WHAT THE BOOLEAN VALUE IS*/
 
 
 
@@ -308,6 +307,32 @@ console.log(oppositeBoolean(false))
 // isNotZero(5) --> true
 // isNotZero(0) --> false
 // isNotZero(null) --> true
+
+// function isNotZero(number) {
+    // if
+    // (number !== 0) {
+        // return true
+    // }
+
+    // else{
+        // return false
+    // }
+// }
+
+// console.log(isNotZero(5));
+
+
+function isNotZero(number) {
+    return number !== 0
+}
+
+console.log(isNotZero(0))
+
+// If we return a boolean(true or false) i can return directly
+
+/*Very Important tip DOWN BELOW */
+
+// if it returns a boolean in the console by default then i can return it straight away and not have to do if and else if statements
 
 
 
