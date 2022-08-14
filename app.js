@@ -122,7 +122,9 @@ console.log(calcPerimeter(6,7))
 // formula to calculate area is  0.5 * base * height
 
 
-
+function calcTriangleArea(base,height){
+    return 0.5 * base * height
+}
 
 
 
