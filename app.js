@@ -352,11 +352,11 @@
 
 // calcRemainder(9,8)--> 1
 
-function calcRemainder(num1,num2) {
-return num1 % num2;
-}
+// function calcRemainder(num1,num2) {
+// return num1 % num2;
+// }
 
-console.log(calcRemainder(4,2))
+// console.log(calcRemainder(4,2))
 
 
 // In order to calculate the remainder 
@@ -382,7 +382,25 @@ console.log(calcRemainder(4,2))
 
 // isOdd(3) --> true
 
+// (use the remainder operator) which is the % symbol
 
+/*Very Important tip DOWN BELOW */
+
+/* An EXCLAMATION MARK INFRONT OF A BOOLEAN VALUE IS GOING TO GIVE YOU THE OPPOSITE OF WHAT THE BOOLEAN VALUE IS*/
+
+
+function isOdd(number){
+    if (number % 2===0) {
+        return false
+    }
+    else{
+        return true
+    }
+}
+
+console.log(isOdd(15))
+
+ 
 
 
 
