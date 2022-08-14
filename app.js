@@ -15,7 +15,7 @@
 // addition(7,3) -> 10
 
 
-// Answer is on line 20 and ends on line 24
+/* Answer is down below */
 
 // function addition(num1,num2){
 // return num1 + num2
@@ -57,13 +57,15 @@
 
 // hoursIntoSeconds(24) --> 86400
 
-function hoursIntoSeconds(hour){
-    let minutes = hour * 60;
-    let seconds = minutes * 60;
-    return seconds;
-}
+/* Answer is below */
 
-console.log(hoursIntoSeconds(2))
+// function hoursIntoSeconds(hour){
+    // let minutes = hour * 60;
+    // let seconds = minutes * 60;
+    // return seconds;
+// }
+
+// console.log(hoursIntoSeconds(2))
 
 
 
@@ -95,12 +97,13 @@ console.log(hoursIntoSeconds(2))
 
 // REMEMBER PEMDAS
 
+/* Answer is down below */
 
-function calcPerimeter(length,width){
-return 2 * length + 2 * width;
-}
+// function calcPerimeter(length,width){
+// return 2 * length + 2 * width;
+// }
 
-console.log(calcPerimeter(6,7))
+// console.log(calcPerimeter(6,7))
 
 
 
@@ -123,6 +126,8 @@ console.log(calcPerimeter(6,7))
 
 // formula to calculate area is  0.5 * base * height
 
+
+/* Answer is down below */
 
 function calcTriangleArea(base,height){
     return  0.5 * base * height;
@@ -165,6 +170,11 @@ console.log(calcTriangleArea(20,20))
 // Don't forget to return your result
 
 
+function appenedFrontend(){
+    return 'AppleFrontend'
+}
+
+console.log(appenedFrontend('Apple',))
 
 
 
@@ -191,7 +201,13 @@ console.log(calcTriangleArea(20,20))
 // sumGreaterThan100(100,-50) -> false
 
 
+// function sumGreaterThan100(num1,num2){
+    // return num1 + num2 > 100
+// }
 
+// console.log(sumGreaterThan100(20,10))
+
+// It is returning false because the sum is NOT Greater than 100
 
 
 
@@ -214,6 +230,13 @@ console.log(calcTriangleArea(20,20))
 // lessThanOrEqualToZero(-2)--> true
 
 // tip: use the less than or equal to operator
+
+
+function lessThanOrEqualToZero(number){
+    return 3 < 0
+}
+
+console.log(lessThanOrEqualToZero(3))
 
 
 
