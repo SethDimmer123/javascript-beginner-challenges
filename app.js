@@ -15,28 +15,6 @@
 // addition(7,3) -> 10
 
 
-function addition(num1,num2){
-    // num1 + num2
-    return num1 + num2
-}
-
-console.log(addition(3,5));
-
-// with a function you have to return something if 
-// i want to console log it
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -52,19 +30,6 @@ console.log(addition(3,5));
 // Create a function that converts hours into seconds
 
 // What do we need to do to actually turn this into seconds?
-
-function hoursIntoSeconds(hour) { 
-    let minutes = hour * 60; 
-    let seconds = minutes * 60;
-    return seconds 
-}
-
-console.log(hoursIntoSeconds(2)) 
-
-
-
-
-
 
 
 
@@ -91,11 +56,7 @@ console.log(hoursIntoSeconds(2))
 // The perimeter is 2 times the length plus 2 times width.
 
 
-function calcPerimeter(length, width) {
-    return length * 2 + width * 2;
-}
 
-console.log(calcPerimeter(6,7));
 
 // REMEMBER PEMDAS
 
@@ -123,11 +84,7 @@ console.log(calcPerimeter(6,7));
 
 // formula to calculate area is  0.5 * base * height
 
-function calcAreaOfTriangle(base, height) {
-    return 0.5 * 20 * 20
-    return (1 / 2) * base * height
-}
-console.log(calcAreaOfTriangle(20,20))
+
 
 
 
@@ -164,10 +121,7 @@ console.log(calcAreaOfTriangle(20,20))
 // Adding strings is similar to adding numbers
 // Don't forget to return your result
 
-function appendFrontend(string) {
-    return string + 'Frontend'
-}
-console.log(appendFrontend('Apple'));
+
 
 
 
