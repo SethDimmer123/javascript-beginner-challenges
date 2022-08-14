@@ -15,6 +15,24 @@
 // addition(7,3) -> 10
 
 
+function addition(num1,num2){
+return num1 + num2
+}
+
+console.log(addition(3,2));
+
+
+// we need to return something if i want to console log it
+
+// whenever i am calling a function i want to use the value i need to make sure to be returning something.
+
+// the value in this scenario is num1 and num2
+
+// whatever is inside of the parameters is the values that you use if i want to return something
+
+
+
+
 
 
 
@@ -220,11 +238,18 @@
 
 // Given two numbers, return their remainder when divided by each other.
 
-calcRemainder(4,2)--> 0
+// calcRemainder(4,2)--> 0
 
-calcRemainder(7,8)--> 7
+// calcRemainder(7,8)--> 7
 
-calcRemainder(9,8)--> 1
+// calcRemainder(9,8)--> 1
+
+
+
+
+
+
+
 
 
 
