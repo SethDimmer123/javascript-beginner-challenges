@@ -49,6 +49,21 @@ console.log(addition(3,2));
 
 // What do we need to do to actually turn this into seconds?
 
+// hoursIntoSeconds(2) --> 7200
+
+// hoursIntoSeconds(10) --> 36000
+
+// hoursIntoSeconds(24) --> 86400
+
+function hoursIntoSeconds(hour){
+    let minutes = hour * 60;
+    let seconds = minutes * 60;
+    return seconds;
+}
+
+console.log(hoursIntoSeconds(2))
+
+
 
 
 
@@ -79,7 +94,11 @@ console.log(addition(3,2));
 // REMEMBER PEMDAS
 
 
+function calcPerimeter(length,width){
+return 2 * length + 2 * width;
+}
 
+console.log(calcPerimeter(6,7))
 
 
 
