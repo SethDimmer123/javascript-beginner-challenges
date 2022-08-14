@@ -147,18 +147,7 @@
 
 // sumGreaterThan100(100,-50) -> false
 
-function sumGreaterThan100(num1,num2) {
-    if(num1 + num2 > 100){
-        return true;
-    }
-    // otherwise return false
-    else {
-        return false
-    }
- return num1 + num2
-}
 
-console.log(sumGreaterThan100(50,51))
 
 
 
