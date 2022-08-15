@@ -57,6 +57,12 @@
 
 // hoursIntoSeconds(24) --> 86400
 
+
+
+
+
+
+
 /* Answer is below */
 
 // function hoursIntoSeconds(hour){
@@ -95,6 +101,10 @@
 
 
 
+
+
+
+
 // REMEMBER PEMDAS
 
 /* Answer is down below */
@@ -125,6 +135,9 @@
 // calcTriangleArea(20,20) -> 200
 
 // formula to calculate area is  0.5 * base * height
+
+
+
 
 
 /* Answer is down below */
@@ -170,7 +183,12 @@
 // Don't forget to return your result
 
 
+
+
+
 /* ANSWER DOWN BELOW */
+
+
 
 // function appenedFrontend(){
     // return 'AppleFrontend'
@@ -282,6 +300,13 @@
 // if the boolean we are getting is equal to false then return true otherwise (else statement) return false
 
 
+
+
+
+
+
+
+
 // The easiest way to do THE PROBLEM ABOVE 
 // IS DOWN BELOW
 
@@ -320,6 +345,12 @@
 // }
 
 // console.log(isNotZero(5));
+
+
+
+
+
+
 
 
 /*EASY WAY TO DO WHAT IS ABOVE DOWN BELOW */
@@ -389,22 +420,29 @@
 /* An EXCLAMATION MARK INFRONT OF A BOOLEAN VALUE IS GOING TO GIVE YOU THE OPPOSITE OF WHAT THE BOOLEAN VALUE IS*/
 
 
-function isOdd(number){
-    if (number % 2===0) {
-        return false
-    }
-    else{
-        return true
-    }
-}
+// function isOdd(number){
+    // if (number % 2===0) {
+        // return false
+    // }
+    // else{
+        // return true
+    // }
+// }
 
-console.log(isOdd(15))
+// console.log(isOdd(15))
+
+
+
+// The easiest way to do THE PROBLEM ABOVE 
+// IS DOWN BELOW
+
 
  
+// function isOdd(number){
+    // return number % 2 !==0
+// }
 
-
-
-
+// console.log(isOdd(15))
 
 
 
@@ -423,10 +461,27 @@ console.log(isOdd(15))
 // booleanInteger(5) --> -1
 
 
+function booleanInteger(number){
+    if(number % 2 === 0){
+        return 1;
+    }
+    return -1;
+}
+
+console.log(booleanInteger(15))
 
 
+// The easiest way to do THE PROBLEM ABOVE 
+// IS DOWN BELOW (using ternary operator)
+
+function booleanInteger(number){
+return number % 2 === 0 ? 1 : -1
+}
+
+console.log(booleanInteger(15))
 
 
+// truthy and falsy explanation (28:10)
 
 
 
