@@ -17,11 +17,7 @@
 
 /* Answer is down below */
 
-// function addition(num1,num2){
-// return num1 + num2
-// }
 
-// console.log(addition(3,2));
 
 
 // we need to return something if i want to console log it
@@ -65,13 +61,8 @@
 
 /* Answer is below */
 
-// function hoursIntoSeconds(hour){
-    // let minutes = hour * 60;
-    // let seconds = minutes * 60;
-    // return seconds;
-// }
 
-// console.log(hoursIntoSeconds(2))
+
 
 
 
@@ -109,11 +100,7 @@
 
 /* Answer is down below */
 
-// function calcPerimeter(length,width){
-// return 2 * length + 2 * width;
-// }
 
-// console.log(calcPerimeter(6,7))
 
 
 
@@ -142,11 +129,7 @@
 
 /* Answer is down below */
 
-// function calcTriangleArea(base,height){
-    // return  0.5 * base * height;
-// }
 
-// console.log(calcTriangleArea(20,20))
 
 
 
@@ -190,11 +173,6 @@
 
 
 
-// function appenedFrontend(){
-    // return 'AppleFrontend'
-// }
-
-// console.log(appenedFrontend('Apple'))
 
 
 
@@ -223,13 +201,7 @@
 
 /* ANSWER DOWN BELOW */
 
-// function sumGreaterThan100(num1,num2){
-    // return num1 + num2 > 100
-// }
 
-// console.log(sumGreaterThan100(20,10))
-
-// It is returning false because the sum is NOT Greater than 100
 
 
 
@@ -257,11 +229,6 @@
 
 /*ANSWER DOWN BELOW*/
 
-// function lessThanOrEqualToZero(number){
-    // return number <= 0
-// }
-
-// console.log(lessThanOrEqualToZero(3))
 
 
 
@@ -286,16 +253,7 @@
 
 // ANSWER DOWN BELOW
 
-// function oppositeBoolean(boolean) {
-    // if (boolean === false) {
-        // return true;
-    // }
-    // else{
-        // return false
-    // }
-// }
 
-// console.log(oppositeBoolean(true))
 
 // if the boolean we are getting is equal to false then return true otherwise (else statement) return false
 
@@ -310,11 +268,7 @@
 // The easiest way to do THE PROBLEM ABOVE 
 // IS DOWN BELOW
 
-// function oppositeBoolean(boolean) {
-        // return !boolean;
-// }
 
-// console.log(oppositeBoolean(false))
 
 /* An EXCLAMATION MARK INFRONT OF A BOOLEAN VALUE IS GOING TO GIVE YOU THE OPPOSITE OF WHAT THE BOOLEAN VALUE IS*/
 
@@ -355,11 +309,7 @@
 
 /*EASY WAY TO DO WHAT IS ABOVE DOWN BELOW */
 
-// function isNotZero(number) {
-    // return number !== 0
-// }
 
-// console.log(isNotZero(0))
 
 // If we return a boolean(true or false) i can return directly
 
@@ -383,11 +333,7 @@
 
 // calcRemainder(9,8)--> 1
 
-// function calcRemainder(num1,num2) {
-// return num1 % num2;
-// }
 
-// console.log(calcRemainder(4,2))
 
 
 // In order to calculate the remainder 
@@ -461,24 +407,24 @@
 // booleanInteger(5) --> -1
 
 
-function booleanInteger(number){
-    if(number % 2 === 0){
-        return 1;
-    }
-    return -1;
-}
+// function booleanInteger(number){
+    // if(number % 2 === 0){
+        // return 1;
+    // }
+    // return -1;
+// }
 
-console.log(booleanInteger(15))
+// console.log(booleanInteger(15))
 
 
 // The easiest way to do THE PROBLEM ABOVE 
 // IS DOWN BELOW (using ternary operator)
 
-function booleanInteger(number){
-return number % 2 === 0 ? 1 : -1
-}
+// function booleanInteger(number){
+// return number % 2 === 0 ? 1 : -1
+// }
 
-console.log(booleanInteger(15))
+// console.log(booleanInteger(15))
 
 
 // truthy and falsy explanation (28:10)
@@ -502,9 +448,19 @@ console.log(booleanInteger(15))
 // isLoggedInAndSubscribed('LOGGED_OUT', 'SUBSCRIBED') --> false
 
 
+// function isLoggedInAndSubscribed(loggedIn, subscribed){
+// // return 
+// if(loggedIn === 'LOGGED_IN' && subscribed === 'SUBSCRIBED'){
+//   return true;
+//  }
+//  return false;
+// }
 
+//  console.log(isLoggedInAndSubscribed('LOGGED_IN', 'SUBSCRIBED'));
 
-
+// When you come back and review these questions 
+// LOOK at interval 35:14 on javascript beginner challenges
+// before attempting these problems again
 
 
 
