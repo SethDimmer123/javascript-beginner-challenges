@@ -20,13 +20,7 @@
 
 
 
-// we need to return something if i want to console log it
 
-// whenever i am calling a function i want to use the value i need to make sure to be returning something.
-
-// the value in this scenario is num1 and num2
-
-// whatever is inside of the parameters is the values that you use if i want to return something
 
 
 
@@ -255,22 +249,10 @@
 
 
 
-// if the boolean we are getting is equal to false then return true otherwise (else statement) return false
 
 
 
 
-
-
-
-
-
-// The easiest way to do THE PROBLEM ABOVE 
-// IS DOWN BELOW
-
-
-
-/* An EXCLAMATION MARK INFRONT OF A BOOLEAN VALUE IS GOING TO GIVE YOU THE OPPOSITE OF WHAT THE BOOLEAN VALUE IS*/
 
 
 
@@ -407,27 +389,10 @@
 // booleanInteger(5) --> -1
 
 
-// function booleanInteger(number){
-    // if(number % 2 === 0){
-        // return 1;
-    // }
-    // return -1;
-// }
-
-// console.log(booleanInteger(15))
 
 
-// The easiest way to do THE PROBLEM ABOVE 
-// IS DOWN BELOW (using ternary operator)
-
-// function booleanInteger(number){
-// return number % 2 === 0 ? 1 : -1
-// }
-
-// console.log(booleanInteger(15))
 
 
-// truthy and falsy explanation (28:10)
 
 
 
@@ -448,15 +413,7 @@
 // isLoggedInAndSubscribed('LOGGED_OUT', 'SUBSCRIBED') --> false
 
 
-// function isLoggedInAndSubscribed(loggedIn, subscribed){
-// // return 
-// if(loggedIn === 'LOGGED_IN' && subscribed === 'SUBSCRIBED'){
-//   return true;
-//  }
-//  return false;
-// }
 
-//  console.log(isLoggedInAndSubscribed('LOGGED_IN', 'SUBSCRIBED'));
 
 // When you come back and review these questions 
 // LOOK at interval 35:14 on javascript beginner challenges
