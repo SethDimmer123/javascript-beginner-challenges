@@ -20,6 +20,13 @@
 
 
 
+// function sumofTwoNumbers(num1,num2){
+//     return num1 + num2
+// }
+// console.log(sumofTwoNumbers(3,2))
+
+
+
 
 
 
@@ -50,10 +57,6 @@
 
 
 
-
-
-
-/* Answer is below */
 
 
 
@@ -415,9 +418,7 @@
 
 
 
-// When you come back and review these questions 
-// LOOK at interval 35:14 on javascript beginner challenges
-// before attempting these problems again
+
 
 
 
