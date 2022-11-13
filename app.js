@@ -28,6 +28,12 @@
 
 
 
+// you need to return something if you want to
+// return the value
+
+
+
+
 
 
 
@@ -57,8 +63,18 @@
 
 
 
+// 1 hour is 60 minutes
+
+// 1 minute is 60 seconds
+
+// 1h * 60 = 3600 seconds
 
 
+function convertHoursIntoSeconds(hours) {
+    console.log(hours * 2 * 60)
+}
+
+convertHoursIntoSeconds(60);
 
 
 
@@ -88,14 +104,17 @@
 
 
 
+function calcPerimeter(num1,num2,) {
+    console.log(num1 * 2 + num2 * 2)
+}
+
+calcPerimeter(20,10)
 
 
 
 
 
-// REMEMBER PEMDAS
 
-/* Answer is down below */
 
 
 
