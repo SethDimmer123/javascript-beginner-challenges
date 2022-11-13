@@ -70,11 +70,11 @@
 // 1h * 60 = 3600 seconds
 
 
-function convertHoursIntoSeconds(hours) {
-    console.log(hours * 2 * 60)
-}
+// function convertHoursIntoSeconds(hours) {
+//     console.log(hours * 2 * 60)
+// }
 
-convertHoursIntoSeconds(60);
+// convertHoursIntoSeconds(60);
 
 
 
@@ -104,11 +104,11 @@ convertHoursIntoSeconds(60);
 
 
 
-function calcPerimeter(num1,num2,) {
-    console.log(num1 * 2 + num2 * 2)
-}
+// function calcPerimeter(num1,num2,) {
+//     console.log(num1 * 2 + num2 * 2)
+// }
 
-calcPerimeter(20,10)
+// calcPerimeter(20,10)
 
 
 
@@ -143,7 +143,12 @@ calcPerimeter(20,10)
 
 
 
-/* Answer is down below */
+// function calcTriangleArea(base,height) {
+//     return (0.5 * base * height)
+// }
+
+// console.log(calcTriangleArea(20,20))
+
 
 
 
