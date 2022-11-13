@@ -20,9 +20,10 @@
 
 
 
-// function sumofTwoNumbers(num1,num2){
+// function sumofTwoNumbers(num1,num2) {
 //     return num1 + num2
 // }
+
 // console.log(sumofTwoNumbers(3,2))
 
 
@@ -53,7 +54,6 @@
 // hoursIntoSeconds(10) --> 36000
 
 // hoursIntoSeconds(24) --> 86400
-
 
 
 
