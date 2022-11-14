@@ -291,11 +291,11 @@
 
 
 
-function oppositeBoolean(bool) {
-return !bool
-}
+// function oppositeBoolean(bool) {
+// return !bool
+// }
 
-console.log(oppositeBoolean(true))
+// console.log(oppositeBoolean(true))
 
 
 
@@ -315,18 +315,15 @@ console.log(oppositeBoolean(true))
 // isNotZero(0) --> false
 // isNotZero(null) --> true
 
-// function isNotZero(number) {
-    // if
-    // (number !== 0) {
-        // return true
-    // }
-
-    // else{
-        // return false
-    // }
+// function isNotZero(element) {
+// return element !== 0
 // }
 
-// console.log(isNotZero(5));
+// console.log(isNotZero(5))
+
+
+// if we are returning a boolean we can return it straight
+// away NO NEED TO WRITE ANY IF OR ELSE STATEMENT
 
 
 
@@ -335,15 +332,10 @@ console.log(oppositeBoolean(true))
 
 
 
-/*EASY WAY TO DO WHAT IS ABOVE DOWN BELOW */
 
 
 
-// If we return a boolean(true or false) i can return directly
 
-/*Very Important tip DOWN BELOW */
-
-// if it returns a boolean in the console by default then i can return it straight away and not have to do if and else if statements
 
 
 
@@ -368,7 +360,11 @@ console.log(oppositeBoolean(true))
 // use percentage symbol because it calculates the remainder for me
 
 
+// function calcRemainder(num1,num2) {
+//     return num1 % num2
+// }
 
+// console.log(calcRemainder(9,8))
 
 
 
@@ -391,33 +387,15 @@ console.log(oppositeBoolean(true))
 
 /*Very Important tip DOWN BELOW */
 
-/* An EXCLAMATION MARK INFRONT OF A BOOLEAN VALUE IS GOING TO GIVE YOU THE OPPOSITE OF WHAT THE BOOLEAN VALUE IS*/
+/* An EXCLAMATION MARK INFRONT OF A BOOLEAN VALUE IS 
+GOING TO GIVE YOU THE OPPOSITE OF WHAT 
+THE BOOLEAN VALUE IS*/
 
-
-// function isOdd(number){
-    // if (number % 2===0) {
-        // return false
-    // }
-    // else{
-        // return true
-    // }
+// function isOdd(num1) {
+//    return num1 % 3 === 0
 // }
 
-// console.log(isOdd(15))
-
-
-
-// The easiest way to do THE PROBLEM ABOVE 
-// IS DOWN BELOW
-
-
- 
-// function isOdd(number){
-    // return number % 2 !==0
-// }
-
-// console.log(isOdd(15))
-
+// console.log(isOdd(3))
 
 
 
@@ -435,7 +413,15 @@ console.log(oppositeBoolean(true))
 // booleanInteger(5) --> -1
 
 
+// function booleanInteger(number) {
+//     if(number % 2 === 0)
+//     return 1
 
+//     else(number % 1 === 0)
+//     return -1
+// }
+
+// console.log(booleanInteger(2))
 
 
 
@@ -460,7 +446,15 @@ console.log(oppositeBoolean(true))
 
 
 
+// function isLoggedInAndSubscribed(str1,str2) {
+//     if(str1 === 'LOGGED_IN' && str2 === 'SUBSCRIBED')
+//     return true
+//     else{
+//         return false
+//     }
+// }
 
+// console.log(isLoggedInAndSubscribed('LOGGED_IN', 'UNSUBSCRIBED'))
 
 
 
