@@ -192,6 +192,13 @@
 
 /* ANSWER DOWN BELOW */
 
+// function appendFrontend(string) {
+//     return("Orange " + string);
+// }
+
+// console.log(appendFrontend("Frontend"))
+
+
 
 
 
@@ -223,7 +230,11 @@
 /* ANSWER DOWN BELOW */
 
 
+// function sumGreaterThan100(num1,num2) {
+//     return num1 + num2 >= 100
+// }
 
+// console.log(sumGreaterThan100(20,10))
 
 
 
@@ -252,7 +263,11 @@
 
 
 
+// function lessThanOrEqualToZero(num1) {
+//     return num1 <= 0
+// }
 
+// console.log(lessThanOrEqualToZero(0))
 
 
 
@@ -276,7 +291,11 @@
 
 
 
+function oppositeBoolean(bool) {
+return !bool
+}
 
+console.log(oppositeBoolean(true))
 
 
 
